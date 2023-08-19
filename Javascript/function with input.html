@@ -1,0 +1,25 @@
+<html>
+<head>
+<body>
+<script type="text/javascript">
+
+function abc(a){
+let even=[],odd=[];
+a=a.toString();
+  for (let i = 0; i < a.length; i++) {
+    if (parseInt(a[i]) % 2 == 0) {
+      even.push(a[i]);
+    } else {
+      odd.push(a[i]);
+    }
+  }
+  
+  console.log("Odd :"+odd);
+  console.log("Even :"+even);
+}
+let a=123456;
+abc(a)
+</script>
+</body>
+</head>
+</html>
